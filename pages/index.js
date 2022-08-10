@@ -11,7 +11,7 @@ const App = () => {
   const steep = isNaN(+router_steep) || +router_steep < 0 ? 0 : +router_steep;
   const setSteep = (router_steep) =>
     router.push(
-      `${window.location.href}?router_steep=${router_steep}`,
+      `${window.location.origin}?router_steep=${router_steep}`,
       undefined,
       { shallow: true }
     );
@@ -33,7 +33,7 @@ const App = () => {
           alignItems: "center"
         }}
       >
-        <div>Steep {steep}</div>
+        <div style={{ marginBottom: 32, fontSize: 52 }}>Steep {steep}</div>
         
         <div
           style={{
