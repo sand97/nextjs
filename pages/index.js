@@ -1,6 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-import Hello from "./Hello";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
