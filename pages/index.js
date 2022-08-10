@@ -33,7 +33,7 @@ const App = () => {
           alignItems: "center"
         }}
       >
-        <div style={{ marginBottom: 32, fontSize: 52 }}>Steep {steep}</div>
+        <div style={{ marginBottom: 32, fontSize: 64 }}>Steep {steep}</div>
         
         <div
           style={{
