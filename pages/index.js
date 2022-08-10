@@ -42,8 +42,8 @@ const App = () => {
             width: 200
           }}
         >
-          <button onClick={() => setSteep(steep + 1)}>Preview</button>
-          <button onClick={() => setSteep(steep - 1)}>Next</button>
+          <button onClick={() => setSteep(steep - 1)}>Preview</button>
+          <button onClick={() => setSteep(steep + 1)}>Next</button>
         </div>
       </main>
     </div>
